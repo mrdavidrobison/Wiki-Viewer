@@ -7,14 +7,16 @@ head
   link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', rel='stylesheet')
   link(href='index.css', rel='stylesheet')
 body
+  h1 Wiki Viewer
   .container
-    input#searchTerm.form-control
+    input#searchTerm.form-control(type='text', placeholder='Search')
     br
+    button#search.btn.btn-primary(type='button') Submit
     br
-    button#search.btn.btn-primary(type="Submit") Submit
     br
     br
     a.white-text(href='https://en.wikipedia.org/wiki/Special:Random' target='_blank') Click Random article search
+    br
     br
     br
   #output

@@ -4,8 +4,12 @@ body
   height:100%
   padding: 1em
 
+h1
+  color: white
+
+
 .container
-  padding-top: 10% 
+  padding-top: 5% 
   width: 20em
   border-radius: 5em
   font-size: 1.5em
@@ -13,8 +17,21 @@ body
 button
   cursor: pointer
 
-#item
+a.white-text
+  color: white
+
+#output
+  background-color: black
   margin-top:1%
-  border-radius:25px
   font-family:'Lobster'
-  tex
+  text-align: left
+  margin-left: 28em
+  margin-right: 28em
+  padding: 2em
+  color: white
+  border: 1em
+  border-color: white
+  border-radius: 1em
+
+a, h2, p
+  color: white
