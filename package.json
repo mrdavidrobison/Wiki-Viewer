@@ -1,0 +1,26 @@
+{
+  "name": "Wiki-Viewer",
+  "version": "1.0.0",
+  "description": "Wiki-Viewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrdavidrobison/Wiki-Viewer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrdavidrobison/Wiki-Viewer/issues"
+  },
+  "homepage": "https://github.com/mrdavidrobison/Wiki-Viewer#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-stylus": "^2.6.0"
+  }
+}
